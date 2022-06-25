@@ -18,3 +18,6 @@ async function randomCat(){
 }
 randomCat()
 ```
+```js
+npm install node-fetch@2(diğer sürümleri hata verebilir)
+```
