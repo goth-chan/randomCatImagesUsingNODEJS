@@ -7,14 +7,14 @@ Kullanımı:
 ![randomCat](https://user-images.githubusercontent.com/40924591/175761456-b000ad8d-83c0-4925-b3bd-33666cc56436.png)
 
 ```js
-const ApiWrapperMain = require("./main");
+const randomImage = require("./main");
 
-const apiwrapper = new ApiWrapperMain("key")
+const api = new randomImage("apikeyburaya")
 
 
-async function f(){
-    r = await apiwrapper.getRandomImage()
+async function randomCat(){
+    r = await api.getRandomImage()
     console.log(r)
 }
-f()
+randomCat()
 ```
